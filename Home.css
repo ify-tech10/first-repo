@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(238, 240, 245);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    scroll-behavior: none;
+}
+.main{
+    position:relative;
+    top: 8vh;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    margin-bottom: 10vh;
+    box-shadow: 3px 2px 8px rgb(0, 0, 0.6);
+    background-color: rgba(247, 248, 248, 0.5);
+}
+.logo{
+    position: relative;
+    top: 5vh;
+    margin-left: 7vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.logo h2{
+    position: relative;
+    left: 30px;
+    margin: 20px ;
+    color: rgb(28, 26, 26);
+    margin-left: 10px;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+}
+ul{
+    position: relative;
+    list-style: none;
+    left: 10vw;
+    display: flex;
+    padding: 20px;
+}
+nav ul li{
+    position: relative;
+    color:white;
+    left: -80px;
+    top: 3vh;
+    margin: 17px;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font: 0.9em italic bold;
+    color: rgb(28, 26, 26);
+    padding: 6px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+nav ul li a:hover{
+    background-color: rgb(28, 26, 26);
+    color: white;
+}
+.mtitle{
+    position: relative;
+    top: 2vh;
+    margin-left: 7vw;
+}
+.mtitle h1{
+    color: black;
+    font-size: 2.3em;
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+.mtitle h4{
+    color: black;
+    font-size: 3.5em;
+    font-weight:lighter;
+    margin-bottom: 20px;
+}
+.products{
+    margin-top:3vw ;
+    flex-direction: row;
+    display: flex;
+    margin-left: 7vw;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 10vh;
+}
+main{
+    display: flex;
+
+}
+.container1{
+  background-color: rgb(239, 236, 234);
+  border-radius: 14px;
+  box-shadow: 3px 2px 8px rgb(0, 0, 0.6);
+}
+.container1 .box1{
+    padding: 15px;
+}
+.container1 .box1 h3{
+margin-top: 1vw;
+}
+.container1 .box1 div{
+    display: flex;
+    flex-direction: row;
+}
+.container1 .box1 p{
+    margin-left: 15px;
+    margin-top: 1vw;
+}
+.container1 .box1 img{
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+article{
+    position: relative;
+}
+article .slidehold{
+    width: 80%;
+    height: 400px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0.6);
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 5rem auto;
+    display: flex;
+  
+}
+article .slider{
+    display: grid;
+    grid-template-columns: repeat(28,400px); 
+    height: 100%;
+    width: 100%;
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+}
+.slidehold::-webkit-scrollbar{
+    display: none;
+}
+.slidehold .slider img{
+    scroll-snap-align: start;
+    justify-content: center;
+    height: 100%;
+}
+.slidehold .slider .t1{
+    padding: 50px;
+    margin-left: 10px;
+    background-color: aqua;
+}
+.slider .t1 h2{
+    margin-top: 20px;
+} 
+.slider .t1 p{
+    margin-top: 5px;
+    font-size: 1em;
+}     
+.slidehold .slider .t2{
+    padding: 50px;
+    margin-left: 10px;
+    background-color: rgb(106, 128, 151);
+}
+.slidehold .slider .t3{
+    padding: 50px;
+    margin-left: 10px;
+    background-color: rgb(39, 54, 70);
+}
+.slidehold .slider .t4{
+    padding: 50px;
+    margin-left: 10px;
+    background-color: rgb(89, 112, 38);
+}
+.slidehold .slider .t5{
+    padding: 50px;
+    margin-left: 10px;
+    background-color: rgb(15, 36, 58);
+}
+.slidehold .slider .t6{
+    padding: 50px;
+    margin-left: 10px;
+    background-color: rgba(33, 54, 78, 0.067);
+}
+.slidehold .slider .t7{
+    padding: 50px;
+    margin-left: 10px;
+    background-color: rgb(10, 97, 62);
+}
+.slidehold .slider .t8{
+    padding: 50px;
+    margin-left: 10px;
+    background-color: rgb(83, 88, 93);
+}
+.slidehold .slider .t9{
+    padding: 50px;
+    margin-left: 10px;
+    background-color: rgb(6, 39, 74);
+}
+.slidehold .slider .t10{
+    padding: 50px;
+    margin-left: 10px;
+    background-color: rgb(199, 19, 46);
+}
+.slidehold .slider .t11{
+    padding: 50px;
+    margin-left: 10px;
+    background-color: rgb(96, 243, 108);
+}
+.slidehold .slider .t12{
+    padding: 50px;
+    margin-left: 10px;
+    background-color: rgb(89, 90, 46);
+}
+.slidehold .slider .t13{
+    padding: 50px;
+    margin-left: 10px;
+    background-color: rgb(12, 170, 70);
+}
+.slidehold .slider .t14{
+    padding: 50px;
+    margin-left: 10px;
+    background-color: rgb(26, 7, 104);
+}
+.bath h1{
+    position: relative;
+    color: black;
+    font-size: 2.3em;
+    font-weight: bolder;
+    margin-bottom: 2px;
+    margin-left: 9vw;
+    top: 6vh;
+}
+section {
+    position: relative;
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    overflow: hidden;
+    margin-left: 9vw;
+    margin-bottom: 9vh;
+    border-radius: 10px;
+}
+.newrelease{
+    margin-top: 2vw;
+    display: flex;
+    gap: 20px;
+    height: 400px;
+     overflow-x: auto;
+    overflow-y: hidden;
+}
+.newrelease::-webkit-scrollbar{
+    display: none;
+}
+.newrelease div{
+    width: 250px;
+    box-shadow: 3px 2px 8px rgb(0, 0, 0.6);
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.newrelease div .p1{
+    font-size: 12px;
+}
+.newrelease div .p2{
+    font-size: 15px;
+    font-weight: bold;
+}
+.newrelease div .p3{
+    font-size: 15px;
+}
+.secbut {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(28, 26, 26);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+footer p a{
+    text-decoration: none;
+    color: white;
+}
