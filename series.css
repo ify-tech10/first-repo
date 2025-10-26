@@ -24,7 +24,7 @@ body{
 }
 .logo{
     position: relative;
-    top: 5vh;
+    top: 2vh;
     margin-left: 7vw;
     height: 10vh;
     display: flex;
@@ -32,6 +32,7 @@ body{
 }
 .logo h2{
     position: relative;
+    top: 3vh;
     left: 30px;
     margin: 20px ;
     color: rgb(28, 26, 26);
