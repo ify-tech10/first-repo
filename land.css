@@ -4,11 +4,11 @@
     overscroll-behavior: none;
 }
 body{
-    background-image: url(imgs/s14.jpg);
+    background-image: url(imgs/la1.jpg);
     background-position: center;
     height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: fill;
+    /* background-repeat: no-repeat; */
 }
 .main{
     position:relative;
@@ -154,7 +154,7 @@ nav ul li:hover .dropdown2 .sr:last-child{
 }
 .land h4{
     font-size: 1.2em;
-    background-color: rgb(95, 99, 102);
+    background-color: rgb(ffff);
     padding: .7vw;
     border-radius: 4vw;
     padding-left: 2vw;
