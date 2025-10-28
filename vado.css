@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+}
+body{
+    background-color: rgba(213, 217, 228, 0.821);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    scroll-behavior: none;
+    overflow-x: hidden;
+}
+.main{
+    position:relative;
+    top: 8vh;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    margin-bottom: 10vh;
+    box-shadow: 3px 2px 8px rgb(0, 0, 0.6);
+    background-color: rgba(247, 248, 248, 0.5);
+}
+.logo{
+    position: relative;
+    top: 2vh;
+    margin-left: 7vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.logo h2{
+    position: relative;
+    left: 30px;
+    top: 3vh;
+    margin: 20px ;
+    color: rgb(28, 26, 26);
+    margin-left: 10px;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+}
+ul{
+    position: relative;
+    list-style: none;
+    left: 10vw;
+    display: flex;
+    padding: 20px;
+}
+nav ul li{
+    position: relative;
+    color:white;
+    left: -80px;
+    top: 3vh;
+    margin: 17px;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font: 0.9em italic bold;
+    color: rgb(28, 26, 26);
+    padding: 6px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+nav ul li a:hover{
+    background-color: rgb(28, 26, 26);
+    color: white;
+}
+.h1{
+    position: relative;
+    top: 10px;
+    gap: 19px;
+    left: 8vw;
+    display: flex;
+    align-items: center;
+}  
+.h1 h4{
+    color: rgb(28, 26, 26);
+    font-size: 20px;
+    font-weight: lighter;
+} 
+.mtitle{
+    position: relative;
+    top: 4vh;
+    margin-left: 7vw;
+}
+.mtitle h1{
+    color: black;
+    font-size: 2.3em;
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+.mtitle h1 img{
+    position: relative;
+    top: 2vh;
+}
+section.categ{
+    margin-top: 15vh;
+    margin-left: 7vw;
+    display: flex;
+    gap:2vw ;
+
+}
+.categ .catlist img{
+    border-radius: 3%;
+}
+.categ .catlist h1{
+    margin-top: 1.3vh;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+.custom{
+    margin-top: 6vh;
+    background: url(imgs/pic1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    padding: 20vh;
+}
+.custom h1{
+    font-size: 3em;
+    width: 33vw;
+    margin-bottom: 5vh;
+}
+.custom p{
+    font-size: 2em;
+    width: 39vw;
+    margin-bottom: 5vh;
+}
+.custom button{
+   height: 8vh;
+   width: 16vw;
+   font-size: 1em;
+   background: rgb(44, 135, 163);
+   color: white;
+}
+.sli{
+    margin-left: 7vw;
+    display: flex;
+    margin-top: 5vh;
+    gap: 2vw;
+}
+.sli .sl{
+    border: .4px solid black;
+    border-radius: 3%;
+    display: flex;
+    width: 36vw;
+}
+.sli .sl2{
+    padding: 2vw;
+    width: 12vw;
+}
+.sli .sl2 h2{
+    font-size: 1.5em;
+    margin-bottom: 4vh;
+}
+.sli .sl2 p{
+    line-height: 26px;
+}
+.sl2 button{
+    margin-top: 4vh;
+   height: 7vh;
+   width: 13vw;
+   font-size: 1em;
+   background: rgb(143, 161, 167);
+   color: white;
+}
+.custom2{
+    margin-top: 6vh;
+    background: url(imgs/s14.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    padding: 20vh;
+}
+.custom2 h1{
+    font-size: 2.5em;
+    width: 33vw;
+    margin-bottom: 5vh;
+}
+.custom2 p{
+    font-size: 2em;
+    width: 39vw;
+    margin-bottom: 5vh;
+}
+.custom2 button{
+   height: 8vh;
+   width: 16vw;
+   font-size: 1em;
+   background:transparent;
+   color: white;
+}
+.vsli{
+    margin-left: 7vw;
+    display: flex;
+    margin-top: 5vh;
+    gap: 2vw;
+}
+.vsli .vsl{
+    border: .4px solid black;
+    border-radius: 3%;
+    display: flex;
+    width: 36vw;
+}
+.vsli .vsl2{
+    padding: 2vw;
+    width: 12vw;
+}
+.vsli .vsl2 h2{
+    font-size: 1.5em;
+    margin-bottom: 4vh;
+}
+.vsli .vsl2 p{
+    line-height: 26px;
+}
+.vsl2 button{
+    margin-top: 4vh;
+   height: 7vh;
+   width: 13vw;
+   font-size: 1em;
+   background: rgb(143, 161, 167);
+   color: white;
+}
+div.cslide{
+    width: 90%;
+    margin-bottom: 4vh;
+}
+section.cslidehold{
+    margin-top: 15vh;
+    margin-left: 7vw;
+    display: flex;
+    overflow: scroll;
+    gap:2vw ;
+}
+.cslidehold .cslider img{
+    border-radius: 3%;
+}
+.cslidehold::-webkit-scrollbar{
+    display: none;
+}
+.cslidehold .cslider p{
+    margin-top: 1.3vh;
+    font-weight: lighter;
+    font-size: 1em;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(28, 26, 26);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+footer p a{
+    text-decoration: none;
+    color: white;
+}
