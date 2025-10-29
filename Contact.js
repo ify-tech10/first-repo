@@ -1,20 +1,21 @@
-document.getElementById("contactForm").addEventListener("submit", function (e) {
+document.getElementById("contactForm").addEventListener("submit", async function (e) {
   e.preventDefault();
-
-  const name = document.getElementById("name").value.trim();
-  const email = document.getElementById("email").value.trim();
-  const subject = document.getElementById("subject").value.trim();
-  const message = document.getElementById("message").value.trim();
+  const formData = new FormData(this);
   const statusMsg = document.getElementById("statusMsg");
 
-  if (!name || !email || !subject || !message) {
-    statusMsg.style.color = "red";
-    statusMsg.textContent = "Please fill out all fields.";
-    return;
-  }
+  const response = await fetch("send_mail.php", {
+    method: "POST",
+    body: formData
+  });
 
-  // Simulate form submission (no backend connected)
-  statusMsg.style.color = "green";
-  statusMsg.textContent = "Thank you! Your message has been sent.";
-  document.getElementById("contactForm").reset();
+  const result = await response.text();
+  if (result === "success") {
+    statusMsg.style.color = "green";
+    statusMsg.textContent = "Thank you! Your message has been sent.";
+    this.reset();
+  } else {
+    statusMsg.style.color = "red";
+    statusMsg.textContent = "Oops! Something went wrong. Please try again.";
+  }
 });
+
