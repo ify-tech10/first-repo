@@ -99,6 +99,18 @@ nav ul li a:hover{
     font-weight:lighter;
     margin-bottom: 20px;
 }
+section.cslidehold{
+    margin-top: 6vh;
+    margin-left: 9vw;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    gap:2vw ;
+}
+ section.cslidehold .cslider h1{
+    font-size: 1.5em;
+}
+
 .products{
     margin-top:3vw ;
     flex-direction: row;

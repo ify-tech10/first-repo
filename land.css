@@ -4,10 +4,10 @@
     overscroll-behavior: none;
 }
 body{
-    background-image: url(imgs/la1.jpg);
+    background-image: url(imgs/2la1.jpg);
     background-position: center;
-    height: 100vh;
-    background-size: fill;
+    height: 100%;
+    background-size: cover;
     /* background-repeat: no-repeat; */
 }
 .main{
@@ -18,7 +18,7 @@ body{
     display: flex;
     margin-bottom: 10vh;
     box-shadow: 3px 2px 8px rgb(0, 0, 0.6);
-    background-color: rgba(247, 248, 248, 0.5);
+    background-color: rgba(164, 177, 177, 0.5);
 }
 .logo{
     position: relative;
@@ -145,8 +145,8 @@ nav ul li:hover .dropdown2 .sr:last-child{
 }
 .land{
     width: 80%;
-    margin: 8vw;
-    justify-content: space-between;
+    margin-left: 15vw;
+
 }
 .land h1{
     justify-self: center;
