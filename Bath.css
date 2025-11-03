@@ -81,48 +81,43 @@ nav ul li a:hover{
     color: rgb(28, 26, 26);
     font-size: 20px;
     font-weight: lighter;
+    position: relative;
+    left: -18vw;
 } 
-.intro{
-    margin-left: 12vw;
-    width: 70%;
-    text-align: center;
-    margin-bottom: 4vh;
-}
-.mlist{
-    margin-left: 8vw;
+section.categ{
+    margin-top: 15vh;
+    margin-left: 7vw;
     display: flex;
     flex-wrap: wrap;
-    gap: 2vw;
+    gap:2vw ;
 
 }
-.mlist1 h3{
-    position: relative;
-    top: -5vh;
-    width: 15vw;
-    color: black;
-    margin-left: 1vw;
-    font-size: 1.3em;
+.categ .catlist img{
+    border-radius: 3%;
 }
-.mlist1 p{
-    position: relative;
-    top: -3vh;
-    width: 18vw;
+.categ .catlist h1,p{
+    margin-top: 1.3vh;
+    font-weight: lighter;
+    font-size: 1.2em;
+    width:19vw;
 }
-.mlist22{
-    margin-left: 8vw;
+section.categ11{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 7vw;
     display: flex;
     flex-wrap: wrap;
-    gap: 2vw;
+    gap:2vw ;
 
 }
-.mlist22 .mlist1 h3{
-    position: relative;
-    top: -7vh;
-    width: 15vw;
-    color: rgb(25, 97, 102);
-    margin-left: 1vw;
-    font-size: 1.3em;
-} 
+.categ11 .catlist img{
+    border-radius: 3%;
+}
+.categ11 .catlist h1{
+    margin-top: 1.3vh;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
 footer{
     position: relative;
     width: 100%;

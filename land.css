@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     overscroll-behavior: none;
+    
 }
 body{
-    background-image: url(imgs/2la1.jpg);
     background-position: center;
     height: 100%;
     background-size: cover;
+    overflow-y: hidden;
     /* background-repeat: no-repeat; */
 }
 .main{
@@ -143,34 +144,9 @@ nav ul li:hover .dropdown2 .sr{
 nav ul li:hover .dropdown2 .sr:last-child{
     border-bottom: none;
 }
-.land{
-    width: 80%;
-    margin-left: 15vw;
+.land img{
+   position: relative;
+   top: -10vh;
+   z-index: -1;
 
-}
-.land h1{
-    justify-self: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-.land h4{
-    font-size: 1.2em;
-    background-color: rgb(ffff);
-    padding: .7vw;
-    border-radius: 4vw;
-    padding-left: 2vw;
-}
-.land .land1{
-    margin: 2vw;
-    margin-bottom: 0;
-    display: flex;
-    gap: 5vh;
-}
-.land .land1 img{
-    border-radius: 10px;
-}
-.land .land1 p{
-    padding: 2vw;
-    font-size: 1.3em;
-    color: #090909;
-    font-weight: bolder;
 }
