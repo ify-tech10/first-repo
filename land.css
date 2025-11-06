@@ -32,19 +32,19 @@ body{
 
 .logo h2{
     position: relative;
-    text-align: center;
-    top: 2vh;
+    top:0vh;
     left: 30px;
     font-size: 2vw;
     font-style: italic;
-    width: 35vw;
+    width: 25vw;
     margin: 23px ;
     color: rgb(28, 26, 26);
     margin-left: 10px;
-    align-items: center;
+    line-height: .9em;
 }
 .logo h2 span{
-    font-size: .7em;
+    font-size: .6em;
+    display: block;
     font-weight: lighter;
 }
 .navbar{
