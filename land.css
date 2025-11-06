@@ -32,14 +32,20 @@ body{
 
 .logo h2{
     position: relative;
-    top: 4vh;
+    text-align: center;
+    top: 2vh;
     left: 30px;
-    font-size: 30px;
+    font-size: 2vw;
     font-style: italic;
+    width: 35vw;
     margin: 23px ;
     color: rgb(28, 26, 26);
     margin-left: 10px;
     align-items: center;
+}
+.logo h2 span{
+    font-size: .7em;
+    font-weight: lighter;
 }
 .navbar{
     display: flex;
@@ -57,7 +63,7 @@ nav ul li{
     left: 7vh;
     top: 3vh;
     margin: 17px;
-    font-size: 25px;
+    font-size: 1.7vw;
 }
 nav ul li a{
     text-decoration: none;
@@ -119,7 +125,7 @@ nav ul li:hover .dropdown .sr:last-child{
 }
 .dropdown2 .sr{
     position: relative;
-    left: -2vw;
+    left: -3vw;
     top: -4px;
 }
 nav ul li:hover .dropdown2{
@@ -127,7 +133,8 @@ nav ul li:hover .dropdown2{
     position: absolute;
     margin-left: -13px;
     margin-top: 6px;
-    padding-top: 5px;
+    padding-top: 1vh;
+    padding-bottom: 0vh;
     justify-content: space-evenly;
     background-color: rgb(241, 241, 231);
     border-radius: 3px;
@@ -135,7 +142,9 @@ nav ul li:hover .dropdown2{
 }
 nav ul li:hover .dropdown2 .sr{
     width: 150px;
-    padding: 10px;
+    padding: 1vw;
+    padding-bottom: 0vh;
+    padding-top: .5vh;
     border-bottom: 1px dotted #5b5454;
     background: transparent;
     border-radius: 0;
