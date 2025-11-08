@@ -38,6 +38,7 @@ body{
     color: rgb(28, 26, 26);
     margin-left: 10px;
     align-items: center;
+    color: rgb(15, 15, 122);
 }
 .navbar{
     display: flex;
