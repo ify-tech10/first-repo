@@ -41,7 +41,11 @@ body{
     color: rgb(28, 26, 26);
     margin-left: 10px;
     line-height: .9em;
-    color: rgb(15, 15, 122);
+    color: rgb(17, 17, 104);
+}
+.logo img{
+    width: 13vw;
+    height: 15vh;
 }
 .logo h2 span{
     font-size: .6em;
@@ -122,6 +126,10 @@ nav ul li:hover .dropdown .sr{
 nav ul li:hover .dropdown .sr:last-child{
     border-bottom: none;
 }
+.dropdown2 .sr img{
+    width: 10vw;
+    height: 6vh;
+}
 .dropdown2{
      display: none;
 }
@@ -175,4 +183,92 @@ nav ul li:hover .dropdown2 .sr:last-child{
     background: rgba(188, 121, 121, 0.97);
     padding: 20px;
     border-radius: 10px;
+}
+/* responsive design */
+
+@media screen and (max-width:470px )  {
+    
+    .main{
+        height: 12vh;
+    }
+    .logo{
+        top: -2vh;
+    }
+    .logo img{
+    width: 25vw;
+    height: 10vh;
+    margin-top: 0px;
+    }
+    .logo h2{
+        font-size: 2vh;
+        width: 60vw;
+        top: 2vh;
+        left: 10px;
+    }
+    .navbar{
+        height: 5vh;
+        display: block;
+        margin-top: 3vh;
+    }
+    .navbar ul{
+        left: -7vw;
+    }
+    .navbar ul li{
+        font-size: 3vw;
+        background: rgb(99, 173, 153);
+        padding-top: .5vh;
+        padding-bottom: .5vh;
+        border-radius: 4px;
+
+    }
+    nav ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 6px;
+    padding-top: 5px;
+    justify-content: space-evenly;
+    background-color: rgb(241, 241, 231);
+    border-radius: 3px;
+    width: 20vw;
+    }
+    nav ul li:hover .dropdown2{
+    display: block;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 6px;
+    padding-top: 5px;
+    justify-content: space-evenly;
+    background-color: rgb(241, 241, 231);
+    border-radius: 3px;
+    width: 20vw;
+    }
+    nav ul li:hover .dropdown .sr{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #5b5454;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    }
+    .dropdown2 .sr img{
+    width: 20vw;
+    height: 6vh;
+}
+    nav ul li:hover .dropdown2 .sr{
+    position: relative;
+    width: 200px;
+    padding: -1vw;
+    padding-bottom: 0vh;
+    padding-top: .5vh;
+    border-bottom: 1px dotted #5b5454;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    left: -7vw;
+    }
+    
+    
+    
+
 }
