@@ -195,8 +195,8 @@ nav ul li:hover .dropdown2 .sr:last-child{
         top: -2vh;
     }
     .logo img{
-    width: 25vw;
-    height: 10vh;
+    width: 100px;
+    height: 80px;
     margin-top: 0px;
     }
     .logo h2{
@@ -219,6 +219,7 @@ nav ul li:hover .dropdown2 .sr:last-child{
         padding-top: .5vh;
         padding-bottom: .5vh;
         border-radius: 4px;
+        text-align: center;
 
     }
     nav ul li:hover .dropdown{
