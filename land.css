@@ -195,6 +195,7 @@ nav ul li:hover .dropdown2 .sr:last-child{
         top: -2vh;
     }
     .logo img{
+        display: none;
     width: 100px;
     height: 80px;
     margin-top: 0px;
