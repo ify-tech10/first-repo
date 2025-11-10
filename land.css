@@ -189,16 +189,14 @@ nav ul li:hover .dropdown2 .sr:last-child{
 @media screen and (max-width:470px )  {
     
     .main{
-        height: 12vh;
+        height: 15vh;
     }
     .logo{
         top: -2vh;
     }
     .logo img{
-    width: 120px;
+    width: 100px;
     height: 80px;
-    margin-top: 0px;
-    border-radius: 50%;
     }
     .logo h2{
         font-size: 2vh;
