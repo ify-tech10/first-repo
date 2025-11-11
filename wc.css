@@ -92,6 +92,11 @@ nav ul li a:hover{
     gap: 2vw;
 
 }
+.mlist1 img{
+    border-radius: 3%;
+    width: 19vw;
+    height: 35vh; 
+}
 .mlist1 h3{
     position: relative;
     top: -5vh;
@@ -124,16 +129,86 @@ section.categ{
 }
 footer{
     position: relative;
-    margin-top: 5vh;
     width: 100%;
     height: 80px;
     background-color: rgb(28, 26, 26);
     display: flex;
     justify-content: space-around;
+    margin-top: 4vh;
     align-items: center;
     color: white;
 }
 footer p a{
+    font-size: .8em;
     text-decoration: none;
     color: white;
+}
+
+/* responsive design */
+
+@media screen and (max-width:470px ){
+    *{
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+     overflow-x: hidden; 
+    }
+    body{
+        
+        width: 100vw;
+    }
+     .main{
+        height: 14vh;
+    }
+    nav{
+        display: none;
+    }
+    .logo h2{
+        font-size: 4vw;
+        top: 1vh;
+        left: 2vw;
+    }
+    .h1 h4{
+        font-size: 3.5vw;
+        left: -14vw;
+        margin-bottom: -1vh;
+    }
+    .mlist1{
+        margin-top: 1vh;
+    }
+    .mlist1 img{
+    border-radius: 3%;
+    width: 40vw;
+    height: 20vh; 
+    margin-top: -2vh;
+    }
+    .mlist1 h3{
+    position: relative;
+    top: -5vh;
+    margin-bottom: -4vh;
+    width: 39vw;
+    color: rgb(31, 137, 172);
+    margin-left: 1vw;
+    font-size: .8em;
+    }
+    .categ .catlist img{
+    border-radius: 3%;
+    width: 40vw;
+    height: 15vh;
+    }
+    .categ .catlist h1{
+    margin-top: .3vh;
+    font-weight: lighter;
+    font-size: .6em;
+    margin-left: 5vw;
+    width:30vw;
+    }
+    footer{
+        height: 60px;
+        margin-top: 2vh;
+    }
+    footer p {
+        font-size: .6em;
+        width: 40vw;
+    }
 }

@@ -143,8 +143,15 @@ footer p a{
 /* responsive design */
 
 @media screen and (max-width:470px ) {
+    *{
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+    overflow-x: hidden;
+    }
     body{
-        overflow-x: none;
+        
+        width: 100vw;
     }
     
     .main{
@@ -180,8 +187,8 @@ footer p a{
     }
     .categ11 .catlist img{
     border-radius: 3%;
-    width: 19vw;
-    height: 18vh;
+    width: 20vw;
+    height: 19vh;
     }
     
 }
