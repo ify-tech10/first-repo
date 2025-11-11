@@ -189,7 +189,7 @@ nav ul li:hover .dropdown2 .sr:last-child{
 @media screen and (max-width:470px )  {
     
     .main{
-        height: 15vh;
+        height: 14vh;
     }
     .logo{
         top: -2vh;
@@ -212,15 +212,24 @@ nav ul li:hover .dropdown2 .sr:last-child{
     }
     .navbar ul{
         left: -7vw;
+        gap: 1vh;
     }
     .navbar ul li{
         font-size: 3vw;
         background: rgb(182, 214, 94);
-        padding-top: .5vh;
-        padding-bottom: .5vh;
+        padding: 5px;
         border-radius: 4px;
+        justify-content: space-evenly;
+        width: 25vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+        left: 5vw;
+        margin: 2px;
         text-align: center;
-
+    }
+    .navbar ul li a{
+        font-size: 2.5vw;
+        justify-content: space-evenly;
     }
     nav ul li:hover .dropdown{
     display: block;
@@ -255,7 +264,7 @@ nav ul li:hover .dropdown2 .sr:last-child{
     .dropdown2 .sr img{
     width: 20vw;
     height: 6vh;
-}
+    }
     nav ul li:hover .dropdown2 .sr{
     position: relative;
     width: 200px;
