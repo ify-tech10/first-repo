@@ -195,14 +195,15 @@ nav ul li:hover .dropdown2 .sr:last-child{
         top: -2vh;
     }
     .logo img{
-    width: 100px;
-    height: 80px;
+        display: n;
+        width: 20vw;
+        height: 12vh;
     }
     .logo h2{
         font-size: 3vh;
         width: 60vw;
         top: 2vh;
-        left: 10px;
+        left: -10px;
     }
     .navbar{
         height: 5vh;
@@ -214,7 +215,7 @@ nav ul li:hover .dropdown2 .sr:last-child{
     }
     .navbar ul li{
         font-size: 3vw;
-        background: rgb(99, 173, 153);
+        background: rgb(182, 214, 94);
         padding-top: .5vh;
         padding-bottom: .5vh;
         border-radius: 4px;
