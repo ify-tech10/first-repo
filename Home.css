@@ -116,7 +116,7 @@ section.cslidehold{
     margin-top:3vw ;
     flex-direction: row;
     display: flex;
-    margin-left: 7vw;
+    margin-left: 12vw;
     flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 10vh;
@@ -271,7 +271,7 @@ section {
     height: 450px;
     margin: auto;
     overflow: hidden;
-    margin-left: 9vw;
+    margin-left: 4vw;
     margin-bottom: 9vh;
     border-radius: 10px;
 }
