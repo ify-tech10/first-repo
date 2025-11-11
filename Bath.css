@@ -32,13 +32,14 @@ body{
 }
 .logo h2{
     position: relative;
-    left: 30px;
-    top: 3vh;
-    margin: 20px ;
+    left: 3vw;
+    top: 1vh;
+    margin: 2vw ;
     color: rgb(28, 26, 26);
     margin-left: 10px;
     align-items: center;
-    color: rgb(15, 15, 122);
+    font-size: 2vw;
+    
 }
 .navbar{
     display: flex;
@@ -80,7 +81,7 @@ nav ul li a:hover{
 }  
 .h1 h4{
     color: rgb(28, 26, 26);
-    font-size: 20px;
+    font-size: 2vw;
     font-weight: lighter;
     position: relative;
     left: -18vw;
@@ -95,11 +96,13 @@ section.categ{
 }
 .categ .catlist img{
     border-radius: 3%;
+    width: 19vw;
+    height: 35vh;
 }
 .categ .catlist h1,p{
     margin-top: 1.3vh;
     font-weight: lighter;
-    font-size: 1.2em;
+    font-size: 1vw;
     width:19vw;
 }
 section.categ11{
@@ -113,6 +116,8 @@ section.categ11{
 }
 .categ11 .catlist img{
     border-radius: 3%;
+    width: 19vw;
+    height: 35vh;
 }
 .categ11 .catlist h1{
     margin-top: 1.3vh;
@@ -133,4 +138,50 @@ footer{
 footer p a{
     text-decoration: none;
     color: white;
+}
+
+/* responsive design */
+
+@media screen and (max-width:470px ) {
+    body{
+        overflow-x: none;
+    }
+    
+    .main{
+        height: 14vh;
+    }
+    nav{
+        display: none;
+    }
+    .logo h2{
+        font-size: 4vw;
+        top: 3vh;
+        left: 2vw;
+    }
+    .h1 h4{
+        font-size: 3.5vw;
+        left: -14vw;
+        margin-bottom: 2vh;
+    }
+    section.categ{
+    margin-top: 3vh;
+    margin-left: 7vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap:2vw ;
+    }
+    .categ .catlist img{
+        width: 27vw;
+        height: 15vh;
+    }
+    .categ .catlist h1,p{
+        font-size: 2.5vw;
+        width:27vw;
+    }
+    .categ11 .catlist img{
+    border-radius: 3%;
+    width: 19vw;
+    height: 18vh;
+    }
+    
 }

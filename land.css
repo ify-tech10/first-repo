@@ -187,6 +187,10 @@ nav ul li:hover .dropdown2 .sr:last-child{
 /* responsive design */
 
 @media screen and (max-width:470px )  {
+    body{
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
     
     .main{
         height: 14vh;
@@ -253,7 +257,7 @@ nav ul li:hover .dropdown2 .sr:last-child{
     width: 20vw;
     }
     nav ul li:hover .dropdown .sr{
-    width: 150px;
+    width: 50px;
     padding: 10px;
     border-bottom: 1px dotted #5b5454;
     background: transparent;
@@ -266,7 +270,7 @@ nav ul li:hover .dropdown2 .sr:last-child{
     }
     nav ul li:hover .dropdown2 .sr{
     position: relative;
-    width: 200px;
+    width: 90px;
     padding: -1vw;
     padding-bottom: 0vh;
     padding-top: .5vh;
